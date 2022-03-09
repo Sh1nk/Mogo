@@ -321,3 +321,40 @@ h1, h2, h3, h4, h5, h6 {
     
     transition: opacity 0.2s linear;
 }
+
+/* Statisticks */
+
+.statistics {
+    background-color: #95e1d3;
+}
+
+.stat {
+    display: flex;
+}
+
+.stat__item {
+    flex: 1 1 0;
+    padding: 70px 20px;
+
+    border-left: 1px solid #b5eae0;
+    text-align: center;
+
+    color: #fff;
+}
+
+.stat__item:last-child {
+    border-right: 1px solid #b5eae0;
+
+}
+
+.stat__count {
+    margin-bottom: 10px;
+    line-height: 1;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.stat__text {
+    font-size: 14px;
+    text-transform: uppercase;
+}
